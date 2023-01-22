@@ -1,6 +1,10 @@
 import { Swiper, SwiperSlide } from "swiper/react"
-import "swiper/css";
+import 'swiper/swiper-bundle.css';
+import SwiperCore, { Autoplay } from 'swiper';
+import 'swiper/css/autoplay';
+
 const Client = () => {
+  SwiperCore.use([Autoplay]);
 
   return (
 
@@ -13,10 +17,10 @@ const Client = () => {
                   {/* <h6 style={{backgroundColor:'#FABF3A', color:'black'}} className="section-subtitle section-subtitle-2 ">
                Our Client Roaster
               </h6> */}
-              <h1 style={{color:'black', fontSize:38, }} className="section-title">Our Client Roaster</h1>
+              <h1 style={{color:'black', fontSize:38, textTransform:'capitalize'}} className="section-title">Our Client Roaster</h1>
 
 
-              <p style={{color:'black', fontSize:22 }}>We've had the honor being the firm of choice of the following corporations
+              <p style={{color:'black', fontSize:22, textTransform:'capitalize' }}>We've had the honor being the firm of choice of the following corporations
 </p>
 
             	           
@@ -30,10 +34,25 @@ const Client = () => {
         slidesPerView={4}
         grabCursor={true}
         className="portfolio-slider"
+        // speed='500'
+        autoplay={{
+        
+          delay: 1000,
+          
+        
+          // disableOnInteraction: false
+          stopOnLastSlide:false
+         }}
+         
+         loop
+        // autoplay
+    modules={[Autoplay]}
+
         
       >
        
-        <SwiperSlide >
+        <SwiperSlide
+        >
           <img
         class
         className="newmine"

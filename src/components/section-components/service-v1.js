@@ -18,37 +18,47 @@ class ServiceV5 extends Component {
 				</div>
 				<div className="row  justify-content-center" >
 					<div  className="col-lg-4 col-sm-6 col-12" >
-					<div  className="ltn__feature-item ltn__feature-item-6 text-center   box-shadow-1" style={{backgroundColor:'silver', height:250}}>
+						<Link to='/dealers'>					
+						<div   className="ltn__feature-item ltn__feature-item-6 text-center   box-shadow-1" style={{backgroundColor:'silver', height:300}}>
 						<div   className="ltn__feature-icon">
 						<span><i className="flaticon-house" /></span>
 						</div>
 						<div className="ltn__feature-info">
 						<h3 style={{color:'black'}}><Link to="/service-details">Construction</Link></h3>
-						<p style={{color:'black'}}>We Prepare Everything you need for your next house</p>
+						<p style={{color:'black', fontSize:20}}>We Prepare Everything you need for your next house</p>
 						</div>
 					</div>
+					</Link>
 					</div>
+
 					<div className="col-lg-4 col-sm-6 col-12">
-					<div style={{backgroundColor:'silver',height:250}} className="ltn__feature-item ltn__feature-item-6 text-center  box-shadow-1">
+
+					<Link to='/bar-sizes'>					
+
+					<div style={{backgroundColor:'silver',height:300}} className="ltn__feature-item ltn__feature-item-6 text-center  box-shadow-1">
 						<div className="ltn__feature-icon">
 						<span><i className="flaticon-mortgage" /></span>
 						</div>
 						<div className="ltn__feature-info">
 						<h3 style={{color:'black'}}><Link to="/service-details">Supply Iron And Steel</Link></h3>
-						<p style={{color:'black'}}>We Supply best material in modest price which makes our company a top tier</p>
+						<p style={{color:'black', fontSize:20}}>We Supply best material in modest price which makes our company a top tier</p>
 						</div>
 					</div>
+</Link>
 					</div>
+					
 					<div className="col-lg-4 col-sm-6 col-12">
-					<div style={{backgroundColor:'silver',height:250}} className="ltn__feature-item ltn__feature-item-6 text-center   box-shadow-1">
+						<Link to="/services">
+					<div style={{backgroundColor:'silver',height:300}} className="ltn__feature-item ltn__feature-item-6 text-center   box-shadow-1">
 						<div className="ltn__feature-icon">
 						<span><i className="flaticon-operator" /></span>
 						</div>
 						<div className="ltn__feature-info">
 						<h3 style={{color:'black'}}><Link to="/service-details">Wealth management</Link></h3>
-						<p style={{color:'black'}}>We Deliver thoughtful investment advisory services related iron and steel</p>
+						<p style={{color:'black', fontSize:20}}>We Deliver thoughtful investment advisory services related iron and steel</p>
 						</div>
 					</div>
+					</Link>
 					</div>
 					
 				

@@ -12,7 +12,7 @@ const Team_V1 = () => {
     <motion.div 
     initial={{opacity:0}}
     animate={{opacity:1}}
-    exit={{opacity:0}}s
+    exit={{opacity:0}}
 
      
     >

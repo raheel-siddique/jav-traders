@@ -15,12 +15,12 @@ class AboutV1 extends Component {
 			      <div className="col-lg-6 align-self-center">
 			        <div className="about-us-img-wrap about-img-left">
 					<img
-					style={{height:400, width:'100%'}}
+					style={{height:700, width:'100%'}}
                                 className="img-fluid imgprop"
                                 alt="properties"
 								src={
                        
-									"assets/img/banner/depositphotos_322160786-stock-photo-racial-trader-using-laptop-sitting.jpg"
+									"assets/img/property/bay-5-stk2.jpg"
 								  }
                               />
 			          <div className="about-us-img-info about-us-img-info-2 about-us-img-info-3">
@@ -34,8 +34,8 @@ class AboutV1 extends Component {
 			            <h6 className="section-subtitle section-subtitle-2 " style={{backgroundColor:'#FABF3A', color:'black'}}>About Us</h6>
 			            <h1 style={{color:'white'}} className="section-title">Iron & Steel Dealers, General Order Suppliers
 </h1>
-			            <p style={{color:'silver', fontSize:23}}>we work to build your dreams into reality</p>
-			            <p style={{color:'white', fontSize:18}}>Noor and campanys Maxima bars are perfect for all types of residential, commercial & mega
+			            <p style={{color:'silver', fontSize:26, textTransform:'capitalize'}}>we work to build your dreams into reality</p>
+			            <p style={{color:'white', fontSize:22, textTransform:'capitalize'}}>JAV Traders Maxima bars are perfect for all types of residential, commercial & mega
 infrastructure projects in Pakistan ,While we produce rebars in standard length of 12 meters</p>
 
 			          </div>
@@ -58,7 +58,7 @@ infrastructure projects in Pakistan ,While we produce rebars in standard length 
 			            </li>
 			          </ul> */}
 			          <div className="ltn__callout bg-overlay-theme-05  mt-30">
-			            <p style={{color:'silver', fontSize:23}}>"risk a deal embrace a bigger target" </p>
+			            <p style={{color:'silver', fontSize:27, textTransform:'capitalize', }}>"risk a deal embrace a bigger target" </p>
 			          </div>
 			        
 					  <div className="btn-wrapper animated ">

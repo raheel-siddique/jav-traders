@@ -21,6 +21,10 @@ import About_v1_Own from "./components/about";
 import { AnimatePresence } from "framer-motion";
 import About from "./components/pages/home/counter-v1";
 import ContactMain from "./components/section-components/ContactMain";
+import BarSizes from "./components/pages/sizes/BarSizes";
+import BarSizes1 from './components/pages/sizes/BarSizes1';
+import BarSizesAll from "./components/pages/sizes/BarSizesAll";
+import Dealers from "./components/pages/dealers/Dealers";
 
 const Root = () => {
 
@@ -44,6 +48,14 @@ const Root = () => {
 
       
           <Route exact path="/services" component={Service_V1} />
+          <Route exact path="/product-size-1" component={BarSizes} />
+          <Route exact path="/product-size-2" component={BarSizes1} />
+          <Route exact path="/bar-sizes" component={BarSizesAll} />
+          <Route exact path="/dealers" component={Dealers} />
+
+
+
+
 
           {/* <Route path="/error" exact component={ErrorPage} /> */}
 

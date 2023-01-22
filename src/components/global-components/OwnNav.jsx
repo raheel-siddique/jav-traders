@@ -137,9 +137,9 @@ const OwnNav = () => {
               style={{fontSize:24}}
 
             >
-              <Link to="/faqs">
+              <Link to="/bar-sizes">
 
-              Faqs
+              Bar Sizes
               </Link>
               
             </li>
@@ -189,8 +189,8 @@ const OwnNav = () => {
                   </Link>
               </li>
               <li className="link_nav">
-                <Link to="/faq">
-                <span className="link_nav"> FAQs</span>
+                <Link to="/bar-sizes">
+                <span className="link_nav"> Bar Sizes</span>
                   
                   </Link>
               </li>

@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import Social from "../section-components/social";
 import Copyright from "./copyright";
 import "./Footer.css";
+// import Brand from '../section-components/brand';
+import { parse } from 'html-react-parser';
 
 const Footer_v1 = () => {
 
@@ -59,17 +61,31 @@ const Footer_v1 = () => {
                       </Link>
                     </div>
                   </div>
-                  <p className="justify-text mt-2" style={{color:'gray'}}>
-                  Jav Traders Maxima bars are perfect for all types of residential
+                  <p className="justify-text mt-2" style={{color:'black', textTransform:'capitalize'}}>
+                  JAV Traders Maxima bars are perfect for all types of residential
                   </p>
                   <div className="footer-address">
                     <ul>
                       <li>
                     <div className="footer-address-icon">
-                          <i className="icon-placeholder" style={{color:'gold'}} />
+                          <i className="icon-placeholder" style={{color:'red'}} />
                         </div> 
                         <div className="footer-address-info">
-                          <p style={{color:'black'}}>L-8 2,Al Naseer Suare F.B Area Karachi</p>
+                          <p style={{color:'black'}}>L-8 2,Al Naseer Square F.B Area Karachi 
+                          
+                           
+                          </p>
+                        
+                        </div> 
+                        <div className="footer-address-icon">
+                          <i className="icon-placeholder" style={{color:'red'}} />
+                        </div> 
+                        <div className="footer-address-info">
+                          <p style={{color:'black'}}>LS-14 Block 13 Federal B Area Karachi, Karachi, Pakistan, 75950
+                          
+                           
+                          </p>
+                        
                         </div> 
                       </li>
                       <li>
@@ -81,10 +97,18 @@ const Footer_v1 = () => {
                             0300-3693228
                           </p>
                         </div>
+                        <div className="footer-address-icon">
+                          <i className="icon-call" style={{color:'red'}} />
+                        </div>
+                        <div className="footer-address-info">
+                          <p style={{color:'black'}}>
+                          03039085403
+                          </p>
+                        </div>
                       </li>
                       <li>
                         <div className="footer-address-icon">
-                          <i className="icon-mail" style={{color:'gold'}} />
+                          <i className="icon-mail" style={{color:'red'}} />
                         </div>
                         <div className="footer-address-info">
                           <p style={{color:'black'}}>
@@ -93,6 +117,19 @@ const Footer_v1 = () => {
                             </a>
                           </p>
                         </div>
+               
+
+
+                        {/* <div className="footer-address-icon">
+                          <i className="icon-mail" style={{color:'gold'}} />
+                        </div>
+                        <div className="footer-address-info">
+                          <p style={{color:'black'}}>
+                            <a href="mailto:muhammediqbal383@gmail.com">
+                            muhammediqbal383@gmail.com
+                            </a>
+                          </p>
+                        </div> */}
                       </li>
                     </ul>
                   </div>

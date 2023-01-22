@@ -10,7 +10,7 @@ class CopyRight extends Component {
             <div className="col-md-12 col-12" style={{textAlign:'center'}}>
               <div className="ltn__copyright-design clearfix">
                 <p>
-                  All Rights Reserved - Jav Traders
+                  All Rights Reserved - JAV Traders
                   <span className="current-year" />
                 </p>
               </div>

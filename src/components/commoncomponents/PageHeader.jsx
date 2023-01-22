@@ -8,18 +8,18 @@ const PageHeader = ({ pageTitle }) => {
   return (
     <>
       <div
-        style={{ height: 400,position:'relative', top:100 }}
+        style={{ height: 550,position:'relative', top:100 }}
         className="ltn__breadcrumb-area text-left bg-overlay-white-30 bg-image ownmg"
         data-bs-bg={
           publicUrl +
-          "assets/img/sell-house-buy-house-house-model-hand-blue-background-payment-real-estate-banner-theme-sell-house-buy-222099584.jpg"
+          "assets/img/property/extrusions-picture-800x500.jpg"
         }
       >
         <div className="container">
           <div className="row">
-            <div className="col-lg-12">
+            <div className="col-lg-12" style={{display:'flex', justifyContent:'left', alignItems:'center', margin:'auto'}}>
               <div className="ltn__breadcrumb-inner">
-                <h1 className="page-title" style={{ color: "white" }}>
+                <h1 className="page-title" style={{ color: "black" }}>
                   {pageTitle}
                 </h1>
                 <div className="ltn__breadcrumb-list">
@@ -33,7 +33,7 @@ const PageHeader = ({ pageTitle }) => {
                       </Link>
                     </li>
 
-                    <li style={{ color: "white" }}>{pageTitle}</li>
+                    <li style={{ color: "black" }}>{pageTitle}</li>
                   </ul>
                 </div>
               </div>
